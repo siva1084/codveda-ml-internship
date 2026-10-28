@@ -8,12 +8,12 @@ Six tasks across three levels (two per level), built in Python with pandas and s
 
 | Level | Task | Dataset | Key result | Video |
 |---|---|---|---|---|
-| 1 | [Data Preprocessing](task_L1_T1_preprocessing) | Stock prices (497,472 rows) | 27 missing values filled, 512 model-ready features, no data leakage | [link](#) |
-| 1 | [Linear Regression](task_L1_T2_linear_regression) | House prices (506 rows) | Test R² 0.669, MSE 24.29 | [link](#) |
-| 2 | [Logistic Regression](task_L2_T1_logistic_regression) | Telecom churn | Test AUC 0.825; recall only 0.179 | [link](#) |
-| 2 | [Decision Tree](task_L2_T2_decision_tree) | Iris (150 rows) | Pruned tree: 6 leaves, test accuracy 0.967 | [link](#) |
-| 3 | [Random Forest](task_L3_T1_random_forest) | Telecom churn | Test AUC 0.925; churn precision 0.95, recall 0.65 | [link](#) |
-| 3 | [SVM](task_L3_T2_svm) | Telecom churn | RBF kernel accuracy 0.915, AUC 0.928 (linear kernel predicted "stay" for everyone) | [link](#) |
+| 1 | [Data Preprocessing](task_L1_T1_preprocessing) | Stock prices (497,472 rows) | 27 missing values filled, 512 model-ready features, no data leakage | [link](https://lnkd.in/p/gDD6JQqH) |
+| 1 | [Linear Regression](task_L1_T2_linear_regression) | House prices (506 rows) | Test R² 0.669, MSE 24.29 | [link](https://lnkd.in/p/g2-sUBrW) |
+| 2 | [Logistic Regression](task_L2_T1_logistic_regression) | Telecom churn | Test AUC 0.825; recall only 0.179 | [link](https://lnkd.in/p/gD-RUEre) |
+| 2 | [Decision Tree](task_L2_T2_decision_tree) | Iris (150 rows) | Pruned tree: 6 leaves, test accuracy 0.967 | [link](https://lnkd.in/p/gExtqagM) |
+| 3 | [Random Forest](task_L3_T1_random_forest) | Telecom churn | Test AUC 0.925; churn precision 0.95, recall 0.65 | [link](https://lnkd.in/p/g__Bei-6) |
+| 3 | [SVM](task_L3_T2_svm) | Telecom churn | RBF kernel accuracy 0.915, AUC 0.928 (linear kernel predicted "stay" for everyone) | [link](https://lnkd.in/p/gNNxN9FQ) |
 
 On the imbalanced churn data, always predicting "no churn" scores 0.858 accuracy, so precision, recall and AUC are reported alongside accuracy.
 
